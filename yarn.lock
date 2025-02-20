@@ -3045,9 +3045,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kiltprotocol/augment-api@npm:1.11501.0-peregrine":
-  version: 1.11501.0-peregrine
-  resolution: "@kiltprotocol/augment-api@npm:1.11501.0-peregrine"
+"@kiltprotocol/augment-api@npm:1.11502.0-peregrine-rc.1":
+  version: 1.11502.0-peregrine-rc.1
+  resolution: "@kiltprotocol/augment-api@npm:1.11502.0-peregrine-rc.1"
   dependencies:
     "@typescript-eslint/eslint-plugin": "npm:^7.0.2"
     "@typescript-eslint/parser": "npm:^7.0.2"
@@ -3055,7 +3055,7 @@ __metadata:
     eslint: "npm:^8.57.0"
     eslint-plugin-unused-imports: "npm:^3.1.0"
   peerDependencies:
-    "@kiltprotocol/type-definitions": ^1.11501.0-peregrine
+    "@kiltprotocol/type-definitions": ^1.11502.0-rc.1
     "@polkadot/api": ~12.2.0
     "@polkadot/typegen": ~12.2.0
     "@polkadot/types": ^12.2.0
@@ -3081,7 +3081,7 @@ __metadata:
   bin:
     kilt_reaugment: augmentFromFile.mjs
     kilt_updateMetadata: updateMetadata.mjs
-  checksum: 10c0/ed1c9a3da9025aadfa791620af99399d2cabdf2b81e66dd8de83811fb7d15841376f78aacbab2760a757fa30be4ece8baa221cefd8ce17dc271656679b46801e
+  checksum: 10c0/8246d6d681da269cd98257c1fc62035512f540d844015f6a9fac2a2bdc45b5df1b879eab6b429a8c404580f14c31bcc8b363df49f8711967a2fc1ede78ae3ed6
   languageName: node
   linkType: hard
 
@@ -3176,12 +3176,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kiltprotocol/type-definitions@npm:1.11501.0-peregrine":
-  version: 1.11501.0-peregrine
-  resolution: "@kiltprotocol/type-definitions@npm:1.11501.0-peregrine"
+"@kiltprotocol/type-definitions@npm:1.11502.0-rc.1":
+  version: 1.11502.0-rc.1
+  resolution: "@kiltprotocol/type-definitions@npm:1.11502.0-rc.1"
   peerDependencies:
     "@polkadot/types": ^12.2.0
-  checksum: 10c0/4e28d97ffef0a2f8de74f4abe01be2e72b4fb2209c6500307a830fb2d53a4eae29a33f30698a27dabbaa70e344921a830229f87246fc6f7d1a39d9686bb10769
+  checksum: 10c0/73732ec232c32539de7e1c6570310bd579a1501ae5c922262ad575d9d0a56f9a90572d2e7e038458b88a65ef8ca436986ea96cfd5ccaa83cbda9632b0d59ee80
   languageName: node
   linkType: hard
 

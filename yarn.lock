@@ -9937,16 +9937,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-storybook@npm:^0.11.1":
-  version: 0.11.1
-  resolution: "eslint-plugin-storybook@npm:0.11.1"
+"eslint-plugin-storybook@npm:^0.11.3":
+  version: 0.11.3
+  resolution: "eslint-plugin-storybook@npm:0.11.3"
   dependencies:
     "@storybook/csf": "npm:^0.1.11"
     "@typescript-eslint/utils": "npm:^8.8.1"
     ts-dedent: "npm:^2.2.0"
   peerDependencies:
-    eslint: ">=6"
-  checksum: 10c0/0520018311c6da25fe2d0db24a59e99ecefe74c4cadd4eba42ce3b1b0ce2c3cc6f88d48680389374f99e10151a7ef3da52386853d9d5a4058c41ae72e2184549
+    eslint: ">=8"
+    typescript: ">=4.8.4 <5.8.0"
+  checksum: 10c0/118d66f03b9657b0a4eae50bb31ca91c892722ac2946f3206cbbe6778b977e5c9310595b216fe1d05d89b6b572f97c25f64347e3c5bd7b20113e18147a975bf3
   languageName: node
   linkType: hard
 
@@ -15056,7 +15057,7 @@ __metadata:
     eslint-plugin-prettier: "npm:^5.2.3"
     eslint-plugin-react: "npm:^7.37.4"
     eslint-plugin-react-hooks: "npm:^4.6.2"
-    eslint-plugin-storybook: "npm:^0.11.1"
+    eslint-plugin-storybook: "npm:^0.11.3"
     exiting: "npm:^6.1.0"
     got: "npm:^11.8.6"
     hapi-dev-errors: "npm:^4.0.0"

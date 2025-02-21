@@ -37,7 +37,7 @@
     "hapi-gate": "^2.1.0",
     "hapi-pino": "^12.1.0",
     "http-status-codes": "^2.3.0",
-    "ky": "^1.7.3",
+    "ky": "^1.7.5",
     "node-cache": "^5.1.2",
     "pino": "^8.21.0",
     "prom-client": "^15.1.3",

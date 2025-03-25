@@ -3192,12 +3192,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kiltprotocol/type-definitions@npm:1.11502.0-rc.1":
-  version: 1.11502.0-rc.1
-  resolution: "@kiltprotocol/type-definitions@npm:1.11502.0-rc.1"
+"@kiltprotocol/type-definitions@npm:^1.0.0":
+  version: 1.11502.0
+  resolution: "@kiltprotocol/type-definitions@npm:1.11502.0"
   peerDependencies:
     "@polkadot/types": ^12.2.0
-  checksum: 10c0/73732ec232c32539de7e1c6570310bd579a1501ae5c922262ad575d9d0a56f9a90572d2e7e038458b88a65ef8ca436986ea96cfd5ccaa83cbda9632b0d59ee80
+  checksum: 10c0/f09192cd1bc0e9fc6ebe3eff628c5ccc221df6a2604ac59ec8efca1e7164b3bd0690400fe4f4ff8be07e43d01b4b24b9d351566e713568a40fb14b681f2a6bf2
   languageName: node
   linkType: hard
 

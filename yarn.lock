@@ -3061,9 +3061,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kiltprotocol/augment-api@npm:1.11502.0-peregrine-rc.2":
-  version: 1.11502.0-peregrine-rc.2
-  resolution: "@kiltprotocol/augment-api@npm:1.11502.0-peregrine-rc.2"
+"@kiltprotocol/augment-api@npm:1.11502.0-peregrine":
+  version: 1.11502.0-peregrine
+  resolution: "@kiltprotocol/augment-api@npm:1.11502.0-peregrine"
   dependencies:
     "@typescript-eslint/eslint-plugin": "npm:^7.0.2"
     "@typescript-eslint/parser": "npm:^7.0.2"
@@ -3097,7 +3097,7 @@ __metadata:
   bin:
     kilt_reaugment: augmentFromFile.mjs
     kilt_updateMetadata: updateMetadata.mjs
-  checksum: 10c0/79dd0f20f6ee82c59a6dc929d8d9bab1ed398e02f0745b8bb7bf9e7286ff0fa6db17630cc111fbe8138331019b1634627fba62072bb8c852c7b0b88c060f5f72
+  checksum: 10c0/e448f1e13ac8cc17d56f0500cfe43bb28ef7c41add63b9d31db155430396d0685e5b26ca416978968a5895f9b3a3adede2f87d3dc113fbc705c436e2af2666d4
   languageName: node
   linkType: hard
 

@@ -1,11 +1,18 @@
 on:
   workflow_dispatch:
-    types: [ created ]
-  push:
-    branches:
-      - main
+    inputs:
+      tag:
+        description: "Choose environment tag"
+        required: true
+        type: choice
+        options:
+          - smoke
+          - dev
+          - stg
+          - test
+          - prod
 
-name: Dev deployment
+name: Release pipeline
 
 jobs:
   deploy:
@@ -39,7 +46,7 @@ jobs:
         ECR_REPOSITORY: socialkyc
         IMAGE_TAG: ${{ github.sha }}
       run: |
-        docker tag socialkyc $ECR_REGISTRY/$ECR_REPOSITORY:latest
+        docker tag socialkyc $ECR_REGISTRY/$ECR_REPOSITORY:${{ github.event.inputs.tag }}
         docker tag socialkyc $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
         docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
-        docker push $ECR_REGISTRY/$ECR_REPOSITORY:latest
+        docker push $ECR_REGISTRY/$ECR_REPOSITORY:${{ github.event.inputs.tag }}

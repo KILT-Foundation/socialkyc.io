@@ -3,7 +3,7 @@
   "license": "BSD-4-Clause",
   "type": "module",
   "engines": {
-    "node": ">= 20.19.1"
+    "node": ">= 20.19.2"
   },
   "scripts": {
     "prettify": "prettier --write \"src/**/*.ts*\" \"src/**/*.css*\"",

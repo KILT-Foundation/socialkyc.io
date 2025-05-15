@@ -15175,7 +15175,7 @@ __metadata:
     twitter-api-v2: "npm:^1.18.2"
     typed-css-modules: "npm:^0.9.1"
     typescript: "npm:^5.7.3"
-    zod: "npm:^3.24.2"
+    zod: "npm:^3.24.4"
   languageName: unknown
   linkType: soft
 
@@ -17378,9 +17378,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:^3.24.2":
-  version: 3.24.2
-  resolution: "zod@npm:3.24.2"
-  checksum: 10c0/c638c7220150847f13ad90635b3e7d0321b36cce36f3fc6050ed960689594c949c326dfe2c6fa87c14b126ee5d370ccdebd6efb304f41ef5557a4aaca2824565
+"zod@npm:^3.24.4":
+  version: 3.24.4
+  resolution: "zod@npm:3.24.4"
+  checksum: 10c0/ab3112f017562180a41a0f83d870b333677f7d6b77f106696c56894567051b91154714a088149d8387a4f50806a2520efcb666f108cd384a35c236a191186d91
   languageName: node
   linkType: hard

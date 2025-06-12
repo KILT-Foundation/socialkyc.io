@@ -39,7 +39,7 @@ jobs:
         ECR_REPOSITORY: socialkyc
         IMAGE_TAG: ${{ github.sha }}
       run: |
-        docker tag socialkyc $ECR_REGISTRY/$ECR_REPOSITORY:latest
+        docker tag socialkyc $ECR_REGISTRY/$ECR_REPOSITORY:dev
         docker tag socialkyc $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
         docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
-        docker push $ECR_REGISTRY/$ECR_REPOSITORY:latest
+        docker push $ECR_REGISTRY/$ECR_REPOSITORY:dev

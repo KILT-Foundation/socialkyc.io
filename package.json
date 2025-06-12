@@ -24,11 +24,11 @@
     "@hapi/boom": "^10.0.1",
     "@hapi/hapi": "^21.3.7",
     "@hapi/inert": "^7.1.0",
-    "@kiltprotocol/sdk-js": "^0.36.0-rc.1",
-    "@kiltprotocol/vc-export": "^0.36.0-rc.1",
-    "@polkadot/keyring": "^12.6.2",
-    "@polkadot/util": "^12.6.2",
-    "@polkadot/util-crypto": "^12.6.2",
+    "@kiltprotocol/sdk-js": "^0.36.0-rc.4",
+    "@kiltprotocol/vc-export": "^0.36.0-rc.4",
+    "@polkadot/keyring": "^13.4.3",
+    "@polkadot/util": "^13.4.3",
+    "@polkadot/util-crypto": "^13.4.3",
     "detect-browser": "^5.3.0",
     "dotenv": "^16.4.7",
     "exiting": "^6.1.0",
@@ -131,6 +131,6 @@
   },
   "packageManager": "yarn@4.5.3",
   "resolutions": {
-    "@kiltprotocol/augment-api": "1.11502.0-peregrine-rc.1"
+    "@kiltprotocol/augment-api": "1.11502.0-peregrine"
   }
 }

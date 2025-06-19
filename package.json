@@ -131,6 +131,7 @@
   },
   "packageManager": "yarn@4.5.3",
   "resolutions": {
-    "@kiltprotocol/augment-api": "1.11502.0-peregrine"
+    "@kiltprotocol/augment-api": "1.11504.0-rc.1",
+    "@kiltprotocol/type-definitions": "1.11502.1-rc.1"
   }
 }

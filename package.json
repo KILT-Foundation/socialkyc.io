@@ -3,7 +3,7 @@
   "license": "BSD-4-Clause",
   "type": "module",
   "engines": {
-    "node": ">= 20.19.2"
+    "node": ">= 20.19.5"
   },
   "scripts": {
     "prettify": "prettier --write \"src/**/*.ts*\" \"src/**/*.css*\"",
@@ -71,7 +71,7 @@
     "@types/hapi__inert": "^5.2.10",
     "@types/jest": "^29.5.14",
     "@types/lodash-es": "^4.17.12",
-    "@types/node": "^20.19.0",
+    "@types/node": "^20.19.19",
     "@types/react": "^18.3.25",
     "@types/react-dom": "^18.3.7",
     "@types/react-router-dom": "^5.3.3",

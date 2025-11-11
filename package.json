@@ -31,7 +31,7 @@
     "@polkadot/util-crypto": "^13.4.3",
     "detect-browser": "^5.3.0",
     "dotenv": "^16.4.7",
-    "exiting": "^6.1.0",
+    "exiting": "^7.0.0",
     "got": "^11.8.6",
     "hapi-dev-errors": "^4.0.0",
     "hapi-gate": "^2.1.0",

@@ -24,7 +24,7 @@
     "@hapi/boom": "^10.0.1",
     "@hapi/hapi": "^21.3.7",
     "@hapi/inert": "^7.1.0",
-    "@kiltprotocol/sdk-js": "^0.36.0-rc.4",
+    "@kiltprotocol/sdk-js": "^1.0.0",
     "@kiltprotocol/vc-export": "^0.36.0-rc.4",
     "@polkadot/keyring": "^13.4.3",
     "@polkadot/util": "^13.4.3",

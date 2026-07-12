@@ -2539,8 +2539,8 @@ __metadata:
   linkType: hard
 
 "@hapi/inert@npm:^7.1.0":
-  version: 7.1.0
-  resolution: "@hapi/inert@npm:7.1.0"
+  version: 7.1.2
+  resolution: "@hapi/inert@npm:7.1.2"
   dependencies:
     "@hapi/ammo": "npm:^6.0.1"
     "@hapi/boom": "npm:^10.0.1"
@@ -2548,7 +2548,7 @@ __metadata:
     "@hapi/hoek": "npm:^11.0.2"
     "@hapi/validate": "npm:^2.0.1"
     lru-cache: "npm:^7.14.1"
-  checksum: 10c0/f3c05f7d1668cab8051294f833bc71e3fc57369811525c43245a90ef91785f9827d66694c65eeff1f3ea78e06545064d2e053ec55fe77b3a407c9d109dfb0e29
+  checksum: 10c0/eba71e8c0239600954dcd66cd6f4631c8453cf138f33db0130e749fe3f51155d7751f0f2f727781997db457edd1dc9fa6a8c6b259a34914ac62c76f7ca771b32
   languageName: node
   linkType: hard
 
